@@ -14,11 +14,11 @@ require './PHPMailer-master/vendor/autoload.php';
 
 // an email address that will be in the From field of the email.
 $fromEmail = $_POST['email'];
-$fromName = $_POST['name'];
+$fromName = $_POST['Portfolio Contact Form'];
 
 // an email address & name that will receive the email with the output of the form
-$sendToEmail = 'name@mydomain.com';
-$sendToName = 'Name';
+$sendToEmail = 'nicholas.gersbach@yahoo.com';
+$sendToName = 'Nick Gersbach';
 
 // subject of the email
 $subject = 'New message from contact form';
